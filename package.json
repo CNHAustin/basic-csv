@@ -1,6 +1,6 @@
 {
   "name": "basic-csv",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Bare bones cell-based editor for CSV/TSV files",
   "main": "./lib/main",
   "keywords": ["csv", "tsv", "table"],
