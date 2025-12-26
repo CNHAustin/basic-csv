@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle basic-csv'
+      'command': 'basic-csv:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'basic-csv'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'basic-csv:toggle'
+        }
+      ]
+    ]
+  }
+]
