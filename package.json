@@ -1,13 +1,19 @@
 {
   "name": "basic-csv",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bare bones cell-based editor for CSV/TSV files",
   "main": "./lib/main",
-  "keywords": ["csv", "tsv", "table"],
+  "keywords": [
+    "csv",
+    "tsv",
+    "table"
+  ],
   "repository": "https://github.com/CNHAustin/basic-csv",
   "license": "MIT",
   "engines": {
     "atom": ">=1.17.0 <2.0.0"
   },
-  "activationCommands": ["*"]
+  "activationCommands": [
+    "*"
+  ]
 }
